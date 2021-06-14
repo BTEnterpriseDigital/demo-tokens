@@ -4,12 +4,6 @@ body {
   margin: 0;
 }
 
-.my-ThreeUpCards {
-  display: grid;
-  grid-gap: var(--arc-grid-gutter-px);
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
 .my-FibreSpeed {
   display: flex;
   justify-content: space-between;

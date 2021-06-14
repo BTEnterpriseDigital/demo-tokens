@@ -10,6 +10,8 @@ import {
   VerticalSpace,
 } from '@arc-ui/components';
 
+import { ArcGridGutterPx } from '@arc-ui/tokens';
+
 function App() {
   return (
     <Base>
@@ -49,7 +51,13 @@ function App() {
           <Columns>
             <Columns.Col span={0} spanM={1} />
             <Columns.Col spanM={10}>
-              <div className="my-ThreeUpCards">
+              <div
+                style={{
+                  display: 'grid',
+                  gridGap: ArcGridGutterPx,
+                  gridTemplateColumns: '1fr 1fr 1fr',
+                }}
+              >
                 <Surface background="white" padding="24">
                   <Heading color="brand" level="2" size="l">
                     Full Fibre 150
