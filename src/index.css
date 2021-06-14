@@ -3,3 +3,24 @@
 body {
   margin: 0;
 }
+
+.my-FibreSpeed {
+  display: flex;
+  justify-content: space-between;
+}
+
+.my-FibreSpeed > div {
+  border-left: 1px solid var(--bt-color-border);
+  padding: var(--arc-space-px) calc(var(--arc-space-px) * 4); /* 16px */
+  width: 50%;
+}
+
+.my-FibreSpeed > div:first-child {
+  border: 0;
+}
+
+.my-FibreSpeed-mbps {
+  font-size: var(--arc-font-size-06-px);
+  font-weight: var(--bt-font-weight-headline);
+  line-height: 1;
+}

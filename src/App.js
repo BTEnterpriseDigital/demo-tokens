@@ -55,20 +55,26 @@ function App() {
                 </Heading>
                 <VerticalSpace size="12" />
                 <Surface background="light" paddingVertical="12">
-                  150{' '}
-                  <Text isInline size="xs">
-                    <b>Mbps</b>
-                  </Text>
-                  <Text size="xs">
-                    <b>Download speed</b>
-                  </Text>
-                  27{' '}
-                  <Text isInline size="xs">
-                    <b>Mbps</b>
-                  </Text>
-                  <Text size="xs">
-                    <b>Upload speed</b>
-                  </Text>
+                  <div className="my-FibreSpeed">
+                    <div>
+                      <span className="my-FibreSpeed-mbps">150</span>{' '}
+                      <Text isInline size="xs">
+                        <b>Mbps</b>
+                      </Text>
+                      <Text size="xs">
+                        <b>Download speed</b>
+                      </Text>
+                    </div>
+                    <div>
+                      <span className="my-FibreSpeed-mbps">27</span>{' '}
+                      <Text isInline size="xs">
+                        <b>Mbps</b>
+                      </Text>
+                      <Text size="xs">
+                        <b>Upload speed</b>
+                      </Text>
+                    </div>
+                  </div>
                 </Surface>
                 <VerticalSpace size="16" />
                 <Heading color="brand" level="3" size="s">
