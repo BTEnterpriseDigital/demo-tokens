@@ -49,42 +49,116 @@ function App() {
           <Columns>
             <Columns.Col span={0} spanM={1} />
             <Columns.Col spanM={10}>
-              <Surface background="white" padding="24">
-                <Heading color="brand" level="2" size="l">
-                  Full Fibre 150
-                </Heading>
-                <VerticalSpace size="12" />
-                <Surface background="light" paddingVertical="12">
-                  <div className="my-FibreSpeed">
-                    <div>
-                      <span className="my-FibreSpeed-mbps">150</span>{' '}
-                      <Text isInline size="xs">
-                        <b>Mbps</b>
-                      </Text>
-                      <Text size="xs">
-                        <b>Download speed</b>
-                      </Text>
+              <div className="my-ThreeUpCards">
+                <Surface background="white" padding="24">
+                  <Heading color="brand" level="2" size="l">
+                    Full Fibre 150
+                  </Heading>
+                  <VerticalSpace size="12" />
+                  <Surface background="light" paddingVertical="12">
+                    <div className="my-FibreSpeed">
+                      <div>
+                        <span className="my-FibreSpeed-mbps">150</span>{' '}
+                        <Text isInline size="xs">
+                          <b>Mbps</b>
+                        </Text>
+                        <Text size="xs">
+                          <b>Download speed</b>
+                        </Text>
+                      </div>
+                      <div>
+                        <span className="my-FibreSpeed-mbps">27</span>{' '}
+                        <Text isInline size="xs">
+                          <b>Mbps</b>
+                        </Text>
+                        <Text size="xs">
+                          <b>Upload speed</b>
+                        </Text>
+                      </div>
                     </div>
-                    <div>
-                      <span className="my-FibreSpeed-mbps">27</span>{' '}
-                      <Text isInline size="xs">
-                        <b>Mbps</b>
-                      </Text>
-                      <Text size="xs">
-                        <b>Upload speed</b>
-                      </Text>
-                    </div>
-                  </div>
+                  </Surface>
+                  <VerticalSpace size="16" />
+                  <Heading color="brand" level="3" size="s">
+                    Ideal for:
+                  </Heading>
+                  <Text>
+                    Start-ups or small businesses looking for simple, fast and
+                    reliable&nbsp;broadband
+                  </Text>
                 </Surface>
-                <VerticalSpace size="16" />
-                <Heading color="brand" level="3" size="s">
-                  Ideal for:
-                </Heading>
-                <Text>
-                  Start-ups or small businesses looking for simple, fast and
-                  reliable&nbsp;broadband
-                </Text>
-              </Surface>
+                <Surface background="white" padding="24">
+                  <Heading color="brand" level="2" size="l">
+                    Full Fibre 150
+                  </Heading>
+                  <VerticalSpace size="12" />
+                  <Surface background="light" paddingVertical="12">
+                    <div className="my-FibreSpeed">
+                      <div>
+                        <span className="my-FibreSpeed-mbps">150</span>{' '}
+                        <Text isInline size="xs">
+                          <b>Mbps</b>
+                        </Text>
+                        <Text size="xs">
+                          <b>Download speed</b>
+                        </Text>
+                      </div>
+                      <div>
+                        <span className="my-FibreSpeed-mbps">27</span>{' '}
+                        <Text isInline size="xs">
+                          <b>Mbps</b>
+                        </Text>
+                        <Text size="xs">
+                          <b>Upload speed</b>
+                        </Text>
+                      </div>
+                    </div>
+                  </Surface>
+                  <VerticalSpace size="16" />
+                  <Heading color="brand" level="3" size="s">
+                    Ideal for:
+                  </Heading>
+                  <Text>
+                    Start-ups or small businesses looking for simple, fast and
+                    reliable&nbsp;broadband
+                  </Text>
+                </Surface>
+                <Surface background="white" padding="24">
+                  <Heading color="brand" level="2" size="l">
+                    Full Fibre 150
+                  </Heading>
+                  <VerticalSpace size="12" />
+                  <Surface background="light" paddingVertical="12">
+                    <div className="my-FibreSpeed">
+                      <div>
+                        <span className="my-FibreSpeed-mbps">150</span>{' '}
+                        <Text isInline size="xs">
+                          <b>Mbps</b>
+                        </Text>
+                        <Text size="xs">
+                          <b>Download speed</b>
+                        </Text>
+                      </div>
+                      <div>
+                        <span className="my-FibreSpeed-mbps">27</span>{' '}
+                        <Text isInline size="xs">
+                          <b>Mbps</b>
+                        </Text>
+                        <Text size="xs">
+                          <b>Upload speed</b>
+                        </Text>
+                      </div>
+                    </div>
+                  </Surface>
+                  <VerticalSpace size="16" />
+                  <Heading color="brand" level="3" size="s">
+                    Ideal for:
+                  </Heading>
+                  <Text>
+                    Start-ups or small businesses looking for simple, fast and
+                    reliable&nbsp;broadband
+                  </Text>
+                </Surface>
+              </div>
             </Columns.Col>
           </Columns>
         </Section>
