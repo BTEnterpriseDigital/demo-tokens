@@ -1,6 +1,10 @@
+import '@arc-ui/components/dist/styles.css';
+import '@arc-ui/components/dist/styles.bt.css';
+import '@arc-ui/fonts';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import './patch.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

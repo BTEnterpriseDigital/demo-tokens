@@ -2,6 +2,21 @@
 # yarn lockfile v1
 
 
+"@arc-ui/components@^0.17.1":
+  version "0.17.1"
+  resolved "https://registry.yarnpkg.com/@arc-ui/components/-/components-0.17.1.tgz#89ae09469e847cf6be253fc730b0b668a5ae315b"
+  integrity sha512-8obAUrxE48Xo+wCyuLzTELCX9zyMtIV+r/1rLpEDGQ5UAJyFaV9Koqwohg7PU6p4t9FoFINrAB1YKosDjXd5Pg==
+
+"@arc-ui/fonts@^0.17.1":
+  version "0.17.1"
+  resolved "https://registry.yarnpkg.com/@arc-ui/fonts/-/fonts-0.17.1.tgz#e57575d8576e36385086a1c260445317b31676a5"
+  integrity sha512-0jruY3O76sy/SDijBEDLBF/0BMVnO9fh/P1Cxqrdu7m0whJoUebLIJQ3Tj3bQy4sowOLokkDT1so7qX2kLtFuw==
+
+"@arc-ui/tokens@^0.17.1":
+  version "0.17.1"
+  resolved "https://registry.yarnpkg.com/@arc-ui/tokens/-/tokens-0.17.1.tgz#bb75cbb77e1c0a02c3d5d812bb52e5bdce481f8c"
+  integrity sha512-Ba3u/UiR1Q5cdoEuujhv/MdS+OxYXaIqORF6FcPhDzK+/9Ag4YUSzCfuPgEznTO1SJfMwFpFqKmgrrgPAzC0rg==
+
 "@babel/code-frame@7.10.4":
   version "7.10.4"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.10.4.tgz#168da1a36e90da68ae8d49c0f1b48c7c6249213a"
